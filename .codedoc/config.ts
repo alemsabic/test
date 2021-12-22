@@ -12,7 +12,7 @@ export const config = /*#__PURE__*/configuration({
     base: 'posts'
   },
   dest: {
-    namespace: '/coding-blog-boilerplate',    // --> change this if you want to also deploy to GitHub Pages
+    namespace: '',    // --> change this if you want to also deploy to GitHub Pages
     html: 'dist',
     assets: process.env.GITHUB_BUILD === 'true' ? 'dist' : '.',
     bundle: process.env.GITHUB_BUILD === 'true' ? 'bundle' : 'dist/bundle',
@@ -20,7 +20,7 @@ export const config = /*#__PURE__*/configuration({
   },
   page: {
     title: {
-      base: 'Coding Blog Boilerplate [PLACEHOLDER]'         // --> change this to change your blog's title
+      base: 'Alem Sabic'         // --> change this to change your blog's title
     },
     favicon: '/favicon.ico'
   },
@@ -34,8 +34,8 @@ export const config = /*#__PURE__*/configuration({
   ],
   misc: {
     github: {
-      repo: 'coding-blog-boilerplate',         // --> change this to your github repo
-      user: 'CONNECT-platform'         // --> change this to your github username
+      repo: 'alems',         // --> change this to your github repo
+      user: 'alemsabic'         // --> change this to your github username
     }
   }
 });
